@@ -1,0 +1,64 @@
+body {
+    margin:0px;
+}
+
+.header {
+    width:100%;
+    margin:auto;
+    background-color:#6495ED;
+    padding:2%;
+}
+
+#app {
+    margin:auto;
+    background-color: white;
+    color:#6495ED;
+    border-radius:20px;
+    width:40%;
+    padding:2%;
+    font-size: 20px;  
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #app {
+        width:60%;
+        font-size: 20px;
+    }
+} 
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    #app {
+        width:70%;
+        font-size: 12px;
+    }
+} 
+
+
+h1 {
+    text-align: center;
+    color:black;
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    h1 {
+        font-size: 30px;
+    }
+} 
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+#field {
+    border:2px solid gray;
+    border-radius:10px;
+}
+
+.fields {
+    margin-top:2%;    
+    text-align: center;
+}
+
+.delete {
+    margin-left:2%;
+    text-decoration: none;
+    color:red;
+}
